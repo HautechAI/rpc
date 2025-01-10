@@ -1,0 +1,30 @@
+{
+    "name": "@hautechai/rpc",
+    "version": "0.7.0",
+    "license": "MIT",
+    "keywords": [],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/HautechAI/rpc"
+    },
+    "main": "dist/index.js",
+    "scripts": {
+        "build": "tsc",
+        "lint": "nx run-many --all --target=lint",
+        "lint:fix": "nx run-many --all --target=lint --fix",
+        "test": "jest"
+    },
+    "description": "Hautech rpc library",
+    "dependencies": {},
+    "devDependencies": {
+        "@types/jest": "29.5.12",
+        "@types/node": "22.5.2",
+        "dotenv": "16.4.7",
+        "jest": "29.7.0",
+        "jest-environment-jsdom": "29.7.0",
+        "ts-jest": "29.2.5",
+        "ts-node": "10.9.2",
+        "tslib": "2.7.0",
+        "typescript": "5.5.4"
+    }
+}
